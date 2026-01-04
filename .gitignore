@@ -1,0 +1,38 @@
+# UE 核心冗余目录
+Binaries/
+Intermediate/
+DerivedDataCache/
+Saved/
+Plugins/Marketplace/  # 若有商城插件，无需纳入版本控制（可自行下载）
+
+# UE 项目配置（按需保留，若团队共享项目配置可删除以下行）
+*.uproject.user
+*.ini.local
+*.target.cs.user
+
+# 操作系统冗余文件
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Git 冗余文件
+.gitattributes
+.gitignore.local
+# 2. 在.gitignore文件中添加以下内容（粘贴后保存关闭）
+# 忽略Visual Studio缓存目录
+.vs/
+# 可选：补充VS相关其他冗余文件（UE项目常用，避免后续误提交）
+*.suo
+*.user
+*.sln.docstates
+# Visual Studio 缓存（核心：彻底忽略.vs目录）
+.vs/
+*.suo
+*.user
+*.sln.docstates
+*.vcxproj.user
+# UE 项目冗余目录（游戏开发必备，按需保留）
+Binaries/
+Intermediate/
+DerivedDataCache/
+Saved/

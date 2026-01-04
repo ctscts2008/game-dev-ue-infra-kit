@@ -1,0 +1,9 @@
+[submodule "General Features/Hotpatch/HotPatcher"]
+	path = General Features/Hotpatch/HotPatcher
+	url = https://github.com/hxhb/HotPatcher.git
+[submodule "General Features/Slate&UMG/HotPatcher"]
+	path = General Features/Slate&UMG/HotPatcher
+	url = https://github.com/hxhb/HotPatcher.git
+[submodule "General Features/Slate&UMG/UMG-Slate-Compendium"]
+	path = General Features/Slate&UMG/UMG-Slate-Compendium
+	url = https://github.com/YawLighthouse/UMG-Slate-Compendium.git

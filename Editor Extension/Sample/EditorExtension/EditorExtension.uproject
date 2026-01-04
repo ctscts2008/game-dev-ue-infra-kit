@@ -1,0 +1,47 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{954205F9-4D6F-C997-B875-74AB40F0A361}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "EditorExtension",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+      {
+        "Name": "ExtendMenuBase",
+        "Type": "Editor",
+        "LoadingPhase": "Default"
+      },
+      {
+        "Name": "ExtendEditorCommand",
+        "Type": "Editor",
+        "LoadingPhase": "PreDefault"
+      },
+      {
+        "Name": "CustomDataType",
+        "Type": "Runtime",
+        "LoadingPhase": "Default"
+      },
+      {
+        "Name": "CustomDataTypeEditor",
+        "Type": "Editor",
+        "LoadingPhase": "Default"
+      },
+      {
+        "Name": "CustomSlate",
+        "Type": "Editor",
+        "LoadingPhase": "PostEngineInit"
+      }
+    ],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
+}
