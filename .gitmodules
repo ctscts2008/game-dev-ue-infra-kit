@@ -7,3 +7,6 @@
 [submodule "General Features/Slate&UMG/UMG-Slate-Compendium"]
 	path = General Features/Slate&UMG/UMG-Slate-Compendium
 	url = https://github.com/YawLighthouse/UMG-Slate-Compendium.git
+[submodule "General Features/Slate&UMG/MeshWidgetExample"]
+	path = General Features/Slate&UMG/MeshWidgetExample
+	url = git@github.com:dantreble/MeshWidgetExample.git
